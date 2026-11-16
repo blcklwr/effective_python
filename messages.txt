@@ -1,0 +1,33 @@
+Jan  5 08:14:02 noether systemd[1]: Started Daily apt download activities.
+Jan  5 08:14:18 noether sshd[2104]: Accepted publickey for alice from 192.0.2.15 port 58422 ssh2
+Jan  5 08:19:31 noether sshd[2130]: Invalid user admin from 203.0.113.17 port 41892
+Jan  5 08:19:33 noether sshd[2130]: Failed password for invalid user admin from 203.0.113.17 port 41892 ssh2
+Jan  5 08:20:04 noether CRON[2141]: (root) CMD (/usr/local/bin/backup.sh)
+Feb 12 11:05:09 noether sshd[2732]: Invalid user guest from 198.51.100.24 port 58301
+Feb 12 11:05:11 noether sshd[2732]: Connection closed by invalid user guest 198.51.100.24 port 58301 [preauth]
+Feb 12 12:43:06 noether kernel: [23871.400012] eth0: link up
+Mar  3 14:24:31 noether sshd[3015]: Accepted password for developer from 192.0.2.9 port 50325 ssh2
+Mar  3 14:27:18 noether sshd[3020]: Invalid user oracle from 192.0.2.83 port 51109
+Mar  3 14:27:20 noether sshd[3020]: Failed password for invalid user oracle from 192.0.2.83 port 51109 ssh2
+Apr 21 09:13:17 noether sudo[3310]: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 21 09:20:44 noether sshd[3344]: Invalid user postgres from 198.51.100.122 port 42018
+May  8 06:02:25 noether systemd[1]: Started Network Time Synchronization.
+May  8 06:07:53 noether sshd[3588]: Invalid user test from 203.0.113.90 port 35212
+May  8 06:09:12 noether sshd[3593]: Accepted publickey for alice from 192.0.2.15 port 59110 ssh2
+Jun 29 20:17:01 noether sshd[5790]: Accepted password for student from 192.0.2.44 port 48612 ssh2
+Jun 29 20:18:40 noether sshd[5805]: Invalid user tester from 218.189.194.200 port 57508
+Jun 29 20:18:42 noether sshd[5805]: Failed password for invalid user tester from 218.189.194.200 port 57508 ssh2
+Jun 29 20:22:11 noether sshd[5820]: Invalid user backup from 203.0.113.55 port 33881
+Jul  2 01:03:15 noether CRON[6001]: (root) CMD (run-parts /etc/cron.hourly)
+Jul  2 01:05:48 noether sshd[6011]: Invalid user gitlab from 192.0.2.121 port 60811
+Aug 17 16:31:02 noether sshd[6420]: Connection closed by authenticating user alice 192.0.2.15 port 48332 [preauth]
+Aug 17 16:42:09 noether sshd[6435]: Invalid user support from 198.51.100.64 port 44731
+Sep  9 07:08:14 noether kernel: [9842.119930] usb 1-1: new high-speed USB device
+Sep  9 07:15:30 noether sshd[6921]: Invalid user operator from 203.0.113.28 port 59204
+Oct 30 23:57:42 noether sshd[7341]: Invalid user temp123 from 192.0.2.198 port 43909
+Oct 30 23:57:46 noether sshd[7341]: Failed password for invalid user temp123 from 192.0.2.198 port 43909 ssh2
+Nov  4 10:10:10 noether systemd[1]: Started Cleanup of Temporary Directories.
+Nov  4 10:12:32 noether sshd[7780]: Invalid user deploy from 198.51.100.7 port 57771
+Nov  4 10:13:07 noether sshd[7791]: Accepted publickey for alice from 192.0.2.15 port 49991 ssh2
+Dec 25 18:02:29 noether sshd[8120]: Invalid user pi from 203.0.113.199 port 60001
+Dec 25 18:04:03 noether sshd[8124]: Disconnected from authenticating user bob 192.0.2.66 port 50222 [preauth]
